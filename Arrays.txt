@@ -1,0 +1,21 @@
+var string = ['Bartek',
+              'Monika',
+               'Filip'];
+Array jest to lista items zamieszczonych w Array
+
+Zeby dostaæ siê do pierszej wartosci trzeba wpisac string[0];-
+to reprezêtuje pierwsza wartosc na liscie.
+¯eby wipisaæ wszystkie trzeba u¿yæ loop
+
+for(var i = 0; i < string.length; i++) {
+  console.log(string[i]);
+} 
+
+to wypisuje wszystkie items zawarte w Array
+
+jezeli chcemy dodac jeden item do Array u¿ywamy, item dodaje sie do konca listy
+ string.push('Daniel');
+ console.log(string[i]);
+
+jezeli chcemy dodac item do poczatku listy uzywamy
+ string.unshift('Rodzina');
